@@ -1,4 +1,6 @@
 import React from "react";
+import UseState3 from "./components/UseState/UseState3";
+// import UseState1 from "./components/UseState/UseState1";
 // import UseState from "./components/UseState/UseState";
 // import CounterHook from "./components/CounterHook";
 // import HookPrevious from "./components/HookPrevious";
@@ -19,6 +21,8 @@ const App=()=> {
       {/* <UseEffect2/> */}
       {/* <MouseContainer/>/ */}
         {/* <UseState/> */}
+        {/* <UseState1/> */}
+        <UseState3/>
     </div>
   );
 }
