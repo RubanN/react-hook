@@ -2,7 +2,11 @@ import React,{useState} from 'react'
 
 function UseState6() {
     //useState with object
-    const [name,setName] = useState({firstName: '', lastName: ''})
+    const [name,setName] = useState([{firstName: '', lastName: ''},
+    {age:10,gender:""},
+]
+            
+      )
     return (
         <form>
           <input type="text" 
@@ -15,6 +19,7 @@ function UseState6() {
           onChange={e=>setName({...name,lastName:e.target.value})}
 
           />  
+          <h2>{name.age}</h2>
           <h2>Your first name is {name.firstName}</h2>
           <h2>yu last name id {name.lastName}</h2>
           <h2>{JSON.stringify(name)}</h2>

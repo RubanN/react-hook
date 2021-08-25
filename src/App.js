@@ -1,5 +1,8 @@
 import React from "react";
-import UseState7 from "./components/UseState/UseState7";
+import UseEffect1 from "./components/UseState/UseEffect/UseEffect1";
+// import UseEffect from "./components/UseState/UseEffect/UseEffect";
+// import UseState8 from "./components/UseState/UseState8";
+// import UseState7 from "./components/UseState/UseState7";
 // import UseState6 from "./components/UseState/UseState6";
 // import UseState5 from "./components/UseState/UseState5";
 // import UseState4 from "./components/UseState/UseState4";
@@ -30,7 +33,42 @@ const App=()=> {
         {/* <UseState4/> */}
         {/* <UseState5/> */}
         {/* <UseState6/> */}
-        <UseState7/>
+        {/* <UseState7/> */}
+        {/* <UseState8/> */}
+    {/* <UseEffect/> */}
+     <UseEffect1/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }
